@@ -14,10 +14,10 @@ namespace K8U2_Primzahlen_dePaterMax
             int zahl2;
             Zahl testzahl = new Zahl();
 
-            Console.WriteLine("Geben sie ihren Testbereich ein: ");
-            Console.WriteLine("von: ");
+            Console.WriteLine("Enter interval: ");
+            Console.WriteLine("from: ");
             zahl1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("bis: ");
+            Console.WriteLine("to: ");
             zahl2 = Convert.ToInt32(Console.ReadLine());
 
             for(int i = zahl1; i < zahl2; i++)
